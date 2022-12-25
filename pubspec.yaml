@@ -1,0 +1,85 @@
+name: blackpad
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.2+3
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  # state management
+  get: ^4.6.1
+
+  # icons
+  flutter_svg: ^1.0.3
+
+  # font
+  google_fonts: ^2.3.1
+
+  # date
+  intl: ^0.17.0
+
+  # hive
+  hive: ^2.1.0
+  hive_flutter: ^1.1.0
+
+  # firebase
+  firebase_core: ^1.15.0
+  cloud_firestore: ^3.1.13
+  firebase_auth: ^3.3.15
+
+  # purchases
+  in_app_purchase: ^3.0.2
+
+  # ads
+  google_mobile_ads: ^1.2.0
+
+  # splash screen
+  flutter_native_splash: ^2.1.6
+
+  # analytics and crash reporting
+  firebase_crashlytics: ^2.7.1
+  firebase_remote_config: ^2.0.5
+
+  firebase_analytics: ^9.1.6
+  firebase_performance: ^0.8.0+10
+
+  # update app
+  in_app_update: ^3.0.0
+  pdf: ^3.7.4
+  path_provider: ^2.0.9
+
+  # local data storage
+  shared_preferences: ^2.0.13
+
+  # permission
+  permission_handler: ^9.2.0
+
+  # local notifications
+  flutter_local_notifications: ^9.5.2
+  timezone: ^0.8.0
+  flutter_native_timezone: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+  build_runner: ^2.1.9
+  hive_generator: ^1.1.2
+  derry: ^1.4.3
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+
+scripts:
+  b: flutter pub run build_runner build
+  bd: flutter pub run build_runner build --delete-conflicting-outputs

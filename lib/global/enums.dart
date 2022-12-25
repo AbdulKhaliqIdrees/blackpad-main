@@ -1,0 +1,1 @@
+enum HomeTab { allNotes, favorites }

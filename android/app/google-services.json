@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "811914422343",
+    "project_id": "blackpad-25909",
+    "storage_bucket": "blackpad-25909.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:811914422343:android:cd61ac963b82b188b02962",
+        "android_client_info": {
+          "package_name": "com.mubilabs.blackpad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "811914422343-r2ut4eh5p1duieutnib6g2dq91ovg8dk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mubilabs.blackpad",
+            "certificate_hash": "147ee9af5293717d98524664a4a8dfb7b5818b76"
+          }
+        },
+        {
+          "client_id": "811914422343-vu047ka0rki9vp9unqnfjiu5vceurqek.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mubilabs.blackpad",
+            "certificate_hash": "3863fc4bc0e678394c1b888f2312199c43a11f5c"
+          }
+        },
+        {
+          "client_id": "811914422343-886i77vdonfa7jvvrp95g6fdu3sneipe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDo_v8NXQKbTAy_dxF68T0zujU0iVb01Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "811914422343-886i77vdonfa7jvvrp95g6fdu3sneipe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
